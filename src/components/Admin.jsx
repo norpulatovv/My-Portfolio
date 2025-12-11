@@ -9,7 +9,7 @@ export default function Admin() {
     if (password === "12345") {
       setLoggedIn(true)
     } else {
-      alert("Parol noto‘g‘ri! Maslahat: 12345 😉")
+      alert("Parol noto‘g‘ri!")
     }
   }
 
