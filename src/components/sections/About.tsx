@@ -4,7 +4,7 @@ import { Calendar, MapPin, Code2, Zap } from "lucide-react";
 import { useLang } from "@/contexts/LangContext";
 import { translations } from "@/lib/i18n";
 import EyeAvatar from "@/components/effects/EyeAvatar";
-import GitHubStats from "@/components/sections/GitHubStats";
+import GitHubStats from "@/components/effects/GitHubStats";
 import NumberCounter from "@/components/effects/NumberCounter";
 
 const techs = [
