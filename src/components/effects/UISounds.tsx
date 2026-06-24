@@ -53,7 +53,7 @@ export default function UISounds() {
       title={enabled ? "Mute sounds" : "Enable sounds"}
       style={{
         position:"fixed", bottom:"76px", right:"24px", zIndex:500,
-        width:"44px", height:"44px", borderRadius:"50%", border:"none",
+        width:"44px", height:"44px", borderRadius:"50%",
         backgroundColor:"var(--color-card)", border:"1px solid var(--color-border)",
         color: enabled ? "var(--color-primary)" : "var(--color-foreground)",
         cursor:"pointer", display:"flex", alignItems:"center", justifyContent:"center",
